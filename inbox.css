@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Container */
+.inbox-container {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title */
+.inbox-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff3b3b; /* Red for title */
+  margin-bottom: 20px;
+}
+
+/* Table */
+.inbox-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.inbox-table thead {
+  background-color: #4caf50; /* Green header */
+  color: white;
+}
+
+.inbox-table th, .inbox-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.inbox-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light gray for alternate rows */
+}
+
+.inbox-table tbody tr:hover {
+  background-color: #f1f1f1; /* Hover effect */
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Pending Status */
+.pending {
+  color: #ff9800; /* Orange for pending */
+  font-weight: bold;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a button {
+  display: inline-block;
+}

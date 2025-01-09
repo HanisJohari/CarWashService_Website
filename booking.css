@@ -1,0 +1,204 @@
+/* popppins fonts */
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+
+}
+
+body{
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(50, 50, 50, 0.8), rgba(50, 50, 50, 0.8)) , url(images/loginBg.jpg);
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+    position: relative;
+
+
+}
+
+.container{
+    position: relative;
+    max-width: 900px;
+    width: 90%;
+    border-radius:6px ;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+
+}
+
+.container header{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+
+}
+
+/* garis bawah booking */
+.container header::before{
+
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: -2px;
+    height: 3px;
+    width:50px;
+    border-radius:8px;
+    background-color:#b01a00
+
+
+
+
+}
+
+.container form{
+
+       position: relative;
+       margin-top: 16px;
+       min-height: 200px; /*Size kotak atau form*/
+        background-color: #fff; /*Kotak yg kelabu tu*/
+
+
+}
+
+.container form .details{
+
+        margin-top: 30px;
+
+}
+
+.container form .title{
+        display: block;
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 6px 0;
+        color :#333;
+
+
+
+
+}
+
+
+/* jarak text input dan susunan dia */
+
+.container form .fields{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+}
+
+form .fields .input-field{
+
+        display: flex;
+        width: calc(100% / 3 - 15px);
+        flex-direction: column;   
+        margin: 4px 0; 
+
+
+}
+.input-field label{
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #2e2e2e;
+
+}
+
+.input-field label{
+   
+    display: block; /* Make the label a block element */
+    font-size: 14px; /* Adjust the font size for better readability */
+    font-weight: 500; /* Optional: Makes the label bold */
+    margin-bottom: 5px; /* Add space between the label and the textbox */
+    color: #333; /* Adjust the label text color */
+}
+
+
+
+
+.fields-1 {
+    display: flex;
+    justify-content:flex-start;
+    gap: 20px; /* Space between input fields */
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.fields-2 {
+    display: flex;
+    justify-content:flex-start;
+    /* margin-left: 25px; */
+    gap: 20px; /* Space between input fields */
+    margin-bottom: 20px; /* Space between rows */
+}
+
+
+/* kelebarann input field */
+.input-field input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: #333;
+    border: 1px solid #aaa;
+    padding: 15px;
+    height: 42px;
+    margin: 8px;
+
+
+}
+
+/* bila kita tekan input tu */
+.input-field input:is(:focus, :valid){
+
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+
+
+
+}
+
+button {
+    background-color: #b01a00; /* Red background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default borders */
+    padding: 10px 20px; /* Add padding for better appearance */
+    font-size: 16px; /* Adjust font size */
+    font-weight: 600; /* Make the text bold */
+    margin-top: 20px;
+    margin-left: 350px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #900; /* Darker red on hover */
+}
+
+
+
+
+
+
+
+

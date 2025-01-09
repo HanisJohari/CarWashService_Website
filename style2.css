@@ -1,0 +1,87 @@
+
+/* Change the background color of the page */
+body {
+    background-color: #ffffff; /* Light blue background */
+}
+
+/* Add a border to the table */
+table {
+    border: 2px solid #000000; /* Blue border around the table */
+    border-radius: 4px; /* Optional: Adds rounded corners */
+}
+/* Change the background color and hover effect of btn-primary */
+.btn-primary {
+    background-color: #b6302b; 
+    border-color: #b6302b;    
+    color: #fff;              
+}
+
+.btn-primary:hover {
+    background-color:#b6302b ; /* Darker green for hover effect */
+    border-color: #b6302b ;    /* Darker green border for hover */
+}
+/* Change the table header background color */
+thead th {
+    background-color: #b6302b; /* Light grey background */
+    color: #ffffff; /* Black text color */
+}
+.btn-secondary {
+    background-color: #b6302b; 
+    border-color: #b6302b;    
+    color: #fff;              
+}
+
+.btn-secondary:hover {
+    background-color:#b6302b ; /* Darker green for hover effect */
+    border-color: #b6302b ;    /* Darker green border for hover */
+}
+/* Style for the table */
+table {
+    border: 2px solid black; /* Set a black border around the table */
+    border-collapse: collapse; /* Ensures that borders between table cells are merged */
+}
+
+/* Style for table headers */
+th {
+    border: 1px solid black; /* Set black border for table headers */
+    padding: 8px; /* Optional: Add padding for better spacing */
+    text-align: center; /* Optional: Center-align the text in the header */
+}
+
+/* Style for table data cells */
+td {
+    border: 1px solid black; /* Set black border for table cells */
+    padding: 8px; /* Optional: Add padding for better spacing */
+    text-align: center; /* Optional: Center-align the text in the cells */
+}
+
+/* Optional: Style for alternating row colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+}
+
+.badge {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.badge-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn-sm {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+

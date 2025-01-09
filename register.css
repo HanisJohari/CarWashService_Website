@@ -1,0 +1,140 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  /* website page? */
+  width: 100%;
+  height: 150vh; /* Full height of the viewport */
+  background-image:linear-gradient(rgba(50, 50, 50, 0.8), rgba(50, 50, 50, 0.8)) , url(images/loginBg.jpg);
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  position: relative;
+}
+
+
+.formbox{
+  width: 100%;
+  max-width: 600px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #ffffff;
+  padding: 50px 60px 70px;
+  text-align: center;
+
+
+}
+.formbox h1{
+      font-size: 30px;
+      margin-bottom: 60px;
+      color:#Ff1919 ;
+      position: relative;
+
+
+}
+.formbox h1::after {
+  content: ''; /* Corrected syntax for an empty string */
+  display: block; /* Ensure the pseudo-element is rendered */
+  /* Garis */
+  width: 160px;
+  height: 4px;
+  border-radius: 3px;
+  background: #d21f3c; /* Red color */
+  position: absolute;
+  bottom: -12px; /* Place it 12px below the parent element */
+  left: 50%; /* Center it horizontally relative to the parent */
+  transform: translateX(-50%); /* Adjust for the element width */
+}
+
+.input-field{
+  background: #eaeaea;
+  margin:15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  max-height: 65%;
+  transition: max-height 0.5s;
+  overflow: hidden;
+
+
+
+}
+
+input{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px 15px;
+
+
+}
+
+.input-field i{
+
+  margin-left: 15px;
+  color: #999;
+
+
+}
+
+form p{
+  text-align: left;
+  font-size: 13px;
+
+
+}
+
+form p a{
+
+  text-decoration: none;
+  color:#d21f3c;
+
+}
+
+.btn {
+  margin-top: 20px; /* Add spacing above the button */
+}
+
+.btn button {
+  font-family: 'Poppins';
+  width: 50%; /* Make the button span the entire container */
+  background: #eaeaea;
+  color: #050505;
+  height: 50px; /* Slightly larger button */
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px; /* Slightly larger font size */
+  transition: background 0.3s;
+}
+
+.btn button:hover {
+  color: #eaeaea;
+  background: #b91a33; /* Darker red on hover */
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
